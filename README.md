@@ -4,6 +4,12 @@
 
 <img src="https://github.com/forcequitOS/Focustomize/blob/main/Focustomize%20Preview.png?raw=true" width="40%">
 
+### How do I install it?
+```
+bash -c "$(curl -sSL https://github.com/forcequitOS/Focustomize/raw/main/install.sh)"
+```
+if you're cool...or just download the latest release from [here](https://github.com/forcequitOS/Focustomize/releases/latest/), extract it, copy to /Applications, ignore macOS' warnings, and run.
+
 ### How does this work?
 
 By modifying ~/Library/DoNotDisturb/DB/ModeConfigurations.json. A more detailed writeup with some more information on what exactly is modifiable will probably come along soon.
