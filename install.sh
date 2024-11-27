@@ -1,5 +1,5 @@
 #!/bin/bash
-# Focustomize Installer 1.0.6
+# Focustomize Installer 1.1.0
 # Define the download location and the URL for the latest release
 DOWNLOAD_DIR=~/Downloads
 ZIP_FILE=Focustomize.zip
@@ -11,20 +11,20 @@ GITHUB_RELEASE_URL="https://github.com/forcequitOS/Focustomize/releases/latest/d
 if [ ! -f "$DOWNLOAD_DIR/$ZIP_FILE" ]; then
     echo "Downloading Focustomize..."
     # Downloads latest Focustomize
-	curl -L -o "$DOWNLOAD_DIR/$ZIP_FILE" "$GITHUB_RELEASE_URL" > /dev/null 2>&1
+    curl -L -o "$DOWNLOAD_DIR/$ZIP_FILE" "$GITHUB_RELEASE_URL" > /dev/null 2>&1
     
     # Extracts zip to a temporary location
-    unzip "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR" > /dev/null 2>&1
+    unzip -qq "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR"
     rm "$DOWNLOAD_DIR/$ZIP_FILE"
 else
-	# Skips download (Since there's already a copy of Focustomize.zip locally)
+	# Skips download
     echo "Using pre-existing Focustomize archive"
     # Extracts zip
-    unzip "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR" > /dev/null 2>&1
+    unzip -qq "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR"
 fi
 
 if [ -d "$TEMP_DIR/$APP_NAME" ]; then
-    echo "Installing Focustomize"
+    echo "Installing Focustomize..."
     # Copy to /Applications
     cp -R "$TEMP_DIR/$APP_NAME" /Applications/
 
@@ -35,7 +35,7 @@ if [ -d "$TEMP_DIR/$APP_NAME" ]; then
     xattr -rd com.apple.quarantine /Applications/$APP_NAME
 
 	# Ad-hoc signs app
-    echo "Signing Focustomize"
+    echo "Signing Focustomize Locally..."
     codesign -f -s - --deep /Applications/$APP_NAME > /dev/null 2>&1
 	# Yippee.
     echo -e "\033[0;32mFocustomize has been installed successfully!\033[0m"
