@@ -1,5 +1,7 @@
 # Focustomize
 ### Your Focus Modes, your rules. Supports macOS Ventura and later!
+**Public Beta available now!**
+
 <sub>More coming soon, for real.</sub>
 
 <img src="https://github.com/forcequitOS/Focustomize/blob/main/Focustomize%20Header.png?raw=true" width="100%">
@@ -8,7 +10,7 @@
 ```
 bash -c "$(curl -sSL https://github.com/forcequitOS/Focustomize/raw/main/install.sh)"
 ```
-if you're cool...or just download the latest release from [here](https://github.com/forcequitOS/Focustomize/releases/latest/), extract it, copy to /Applications, ignore macOS' warnings, and run.
+if you're cool...or just download the [latest release](https://github.com/forcequitOS/Focustomize/releases/latest/), extract it, copy to /Applications, ignore macOS' warnings, and run.
 
 ### How does this work?
 
@@ -28,6 +30,6 @@ Research, testing, and naming - [@dootskyre on Twitter](https://twitter.com/doot
 
 Saving me from going insane - [Claude](https://claude.ai) and [ChatGPT](https://chatgpt.com).
 
-<sub>To my knowledge, this is the first project that actually does something this far with Focus modes, I hope you enjoy, and I hope this inspires other people to do wacky stuff like this!</sub>
+<sub>To my knowledge, this is the first project that actually does something like this with Focus modes, I hope this inspires others to experinment a little bit too!</sub>
 
-<sub>* Private SF Symbols aren't supported yet, if you know of a way to easily use them on macOS, get in contact with me!</sub>
+<sub>* Private SF Symbols aren't supported yet, if you know of a way to easily use them on macOS, contact me!</sub>
