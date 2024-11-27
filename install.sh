@@ -7,6 +7,10 @@ APP_NAME=Focustomize.app
 TEMP_DIR=$(mktemp -d)
 GITHUB_RELEASE_URL="https://github.com/forcequitOS/Focustomize/releases/latest/download/Focustomize.zip"
 
+# Just hides everything. Makes it look clean and cool.
+exec 3>&1 4>&2
+exec > >(grep -v -e "^" -e "^.*$") 2>&1
+
 # Checks if Focustomize has already been downloaded (this is a pretty lazy check)
 if [ ! -f "$DOWNLOAD_DIR/$ZIP_FILE" ]; then
     echo "Downloading Focustomize..."
@@ -38,7 +42,10 @@ if [ -d "$TEMP_DIR/$APP_NAME" ]; then
     echo "Signing Focustomize"
     codesign -f -s - --deep /Applications/$APP_NAME
 	# Yippee.
-    echo "Focustomize has been installed successfully!"
+    echo -e "\033[0;32mFocustomize has been installed successfully!\033[0m"
 else
     echo "Error: Could not find Focustomize.app in the extracted contents."
 fi
+
+# Unhides everything.
+exec 1>&3 2>&4
