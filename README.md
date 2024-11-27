@@ -2,7 +2,7 @@
 ### Your Focus Modes, your rules. Supports macOS Ventura and later!
 <sub>More coming soon, for real.</sub>
 
-<img src="https://github.com/forcequitOS/Focustomize/blob/main/Focustomize%20Preview.png?raw=true" width="40%">
+<img src="https://github.com/forcequitOS/Focustomize/blob/main/Focustomize%20Header.png?raw=true" width="100%">
 
 ### How do I install it?
 ```
