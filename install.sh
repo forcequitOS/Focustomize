@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Focustomize Installer
 # Define the download location and the URL for the latest release
 DOWNLOAD_DIR=~/Downloads
 ZIP_FILE=Focustomize.zip
@@ -14,13 +14,13 @@ if [ ! -f "$DOWNLOAD_DIR/$ZIP_FILE" ]; then
     curl -L -o "$DOWNLOAD_DIR/$ZIP_FILE" "$GITHUB_RELEASE_URL"
     
     # Extracts zip to a temporary location
-    unzip -q "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR"
+    unzip -qq "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR"
     rm "$DOWNLOAD_DIR/$ZIP_FILE"
 else
 	# Skips download
     echo "Using pre-existing Focustomize archive"
     # Extracts zip
-    unzip -q "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR"
+    unzip -qq "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR"
 fi
 
 if [ -d "$TEMP_DIR/$APP_NAME" ]; then
