@@ -1,5 +1,5 @@
 #!/bin/bash
-# Focustomize Installer 1.0.5
+# Focustomize Installer 1.0.6
 # Define the download location and the URL for the latest release
 DOWNLOAD_DIR=~/Downloads
 ZIP_FILE=Focustomize.zip
@@ -7,25 +7,20 @@ APP_NAME=Focustomize.app
 TEMP_DIR=$(mktemp -d)
 GITHUB_RELEASE_URL="https://github.com/forcequitOS/Focustomize/releases/latest/download/Focustomize.zip"
 
-# Just hides everything. Makes it look clean and cool.
-function silence() {
-    "$@" > /dev/null 2>&1
-}
-
 # Checks if Focustomize has already been downloaded (this is a pretty lazy check)
 if [ ! -f "$DOWNLOAD_DIR/$ZIP_FILE" ]; then
     echo "Downloading Focustomize..."
     # Downloads latest Focustomize
-    silence curl -L -o "$DOWNLOAD_DIR/$ZIP_FILE" "$GITHUB_RELEASE_URL"
+	curl -L -o "$DOWNLOAD_DIR/$ZIP_FILE" "$GITHUB_RELEASE_URL" > /dev/null 2>&1
     
     # Extracts zip to a temporary location
-    silence unzip "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR"
+    unzip "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR" > /dev/null 2>&1
     rm "$DOWNLOAD_DIR/$ZIP_FILE"
 else
 	# Skips download (Since there's already a copy of Focustomize.zip locally)
     echo "Using pre-existing Focustomize archive"
     # Extracts zip
-    silence unzip -qq "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR"
+    unzip "$DOWNLOAD_DIR/$ZIP_FILE" -d "$TEMP_DIR" > /dev/null 2>&1
 fi
 
 if [ -d "$TEMP_DIR/$APP_NAME" ]; then
@@ -41,7 +36,7 @@ if [ -d "$TEMP_DIR/$APP_NAME" ]; then
 
 	# Ad-hoc signs app
     echo "Signing Focustomize"
-    silence codesign -f -s - --deep /Applications/$APP_NAME
+    codesign -f -s - --deep /Applications/$APP_NAME > /dev/null 2>&1
 	# Yippee.
     echo -e "\033[0;32mFocustomize has been installed successfully!\033[0m"
 else
