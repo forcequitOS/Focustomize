@@ -22,7 +22,7 @@ By modifying ~/Library/DoNotDisturb/DB/ModeConfigurations.json. A more detailed 
 
 ### When?
 
-Available as a Public Beta today! Final release date? Unknown, but if you're lucky, before the end of 2024. Open sourcing? Once the final release comes.
+Available as a Public Beta today! Final release date? Likely in January 2025. No promises though. It'll be open-sourced the same time I make a final release.
 
 ### Credits.
 
@@ -32,4 +32,4 @@ Saving me from going insane - [Claude](https://claude.ai) and [ChatGPT](https://
 
 <sub>To my knowledge, this is the first project that actually does something like this with Focus modes, I hope this inspires others to experinment a little bit too!</sub>
 
-<sub>* Private SF Symbols aren't supported yet, if you know of a way to easily use them on macOS, contact me!</sub>
+<sub>* The Private SF Symbol crisis has been resolved, but I have to release the public beta that actually adds support for them.</sub>
