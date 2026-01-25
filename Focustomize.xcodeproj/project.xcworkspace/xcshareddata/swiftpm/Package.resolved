@@ -1,0 +1,24 @@
+{
+  "originHash" : "a004c47befb5f5e2ee3c9abfd95bda9f1b10ea58cf0a5b8b3febabeb20a88533",
+  "pins" : [
+    {
+      "identity" : "summit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/forcequitOS/Summit",
+      "state" : {
+        "revision" : "460f020c0a7e5a2229f1229e4f7839fd2ff7b260",
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "systemimagepicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sbertix/SystemImagePicker.git",
+      "state" : {
+        "revision" : "d03c81b326107a267e9644b31ee415cee072130c",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

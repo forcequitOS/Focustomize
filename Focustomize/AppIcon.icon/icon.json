@@ -1,0 +1,46 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.94118,0.78431,0.26667,1.00000",
+      "display-p3:0.81961,0.70196,0.23922,1.00000"
+    ]
+  },
+  "groups" : [
+    {
+      "blur-material" : null,
+      "layers" : [
+        {
+          "image-name" : "Ring.svg",
+          "name" : "Ring"
+        },
+        {
+          "image-name" : "Sun.svg",
+          "name" : "Sun"
+        }
+      ],
+      "lighting" : "individual",
+      "position" : {
+        "scale" : 1,
+        "translation-in-points" : [
+          -40,
+          90
+        ]
+      },
+      "shadow" : {
+        "kind" : "layer-color",
+        "opacity" : 1
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.8
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

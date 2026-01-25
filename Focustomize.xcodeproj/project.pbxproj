@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		365F2C7F2CF414DF00E1E629 /* Summit in Frameworks */ = {isa = PBXBuildFile; productRef = 365F2C7E2CF414DF00E1E629 /* Summit */; };
+		365F2C822CF41BCE00E1E629 /* SystemImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 365F2C812CF41BCE00E1E629 /* SystemImagePicker */; };
+		368A95512CF6561C0037010F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368A95502CF656190037010F /* SettingsView.swift */; };
+		368F5F372CF436BC0086BED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368F5F332CF436BC0086BED1 /* Assets.xcassets */; };
+		368F5F382CF436BC0086BED1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368F5F342CF436BC0086BED1 /* ContentView.swift */; };
+		368F5F392CF436BC0086BED1 /* FocustomizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368F5F352CF436BC0086BED1 /* FocustomizeApp.swift */; };
+		36E21FA72F25969C004449FF /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 36E21FA62F25969C004449FF /* AppIcon.icon */; };
+		36EE27322CF4F9F800C0885D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE27312CF4F9F500C0885D /* Colors.swift */; };
+		36EE27342CF4FA8E00C0885D /* AuxillaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE27332CF4FA8A00C0885D /* AuxillaryViews.swift */; };
+		36EE27362CF4FAA300C0885D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE27352CF4FAA200C0885D /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		365F2C682CF3E49C00E1E629 /* Focustomize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focustomize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368A95502CF656190037010F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		368F5F332CF436BC0086BED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368F5F342CF436BC0086BED1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		368F5F352CF436BC0086BED1 /* FocustomizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocustomizeApp.swift; sourceTree = "<group>"; };
+		368F5F3A2CF439820086BED1 /* Focustomize.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Focustomize.entitlements; sourceTree = "<group>"; };
+		36E21FA62F25969C004449FF /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		36EE27312CF4F9F500C0885D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		36EE27332CF4FA8A00C0885D /* AuxillaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxillaryViews.swift; sourceTree = "<group>"; };
+		36EE27352CF4FAA200C0885D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365F2C652CF3E49C00E1E629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365F2C7F2CF414DF00E1E629 /* Summit in Frameworks */,
+				365F2C822CF41BCE00E1E629 /* SystemImagePicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365F2C5F2CF3E49C00E1E629 = {
+			isa = PBXGroup;
+			children = (
+				368F5F362CF436BC0086BED1 /* Focustomize */,
+				365F2C692CF3E49C00E1E629 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		365F2C692CF3E49C00E1E629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365F2C682CF3E49C00E1E629 /* Focustomize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368F5F362CF436BC0086BED1 /* Focustomize */ = {
+			isa = PBXGroup;
+			children = (
+				368F5F3A2CF439820086BED1 /* Focustomize.entitlements */,
+				368F5F332CF436BC0086BED1 /* Assets.xcassets */,
+				368F5F342CF436BC0086BED1 /* ContentView.swift */,
+				36EE27352CF4FAA200C0885D /* Models.swift */,
+				36EE27332CF4FA8A00C0885D /* AuxillaryViews.swift */,
+				36EE27312CF4F9F500C0885D /* Colors.swift */,
+				368F5F352CF436BC0086BED1 /* FocustomizeApp.swift */,
+				368A95502CF656190037010F /* SettingsView.swift */,
+				36E21FA62F25969C004449FF /* AppIcon.icon */,
+			);
+			path = Focustomize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		365F2C672CF3E49C00E1E629 /* Focustomize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365F2C772CF3E49D00E1E629 /* Build configuration list for PBXNativeTarget "Focustomize" */;
+			buildPhases = (
+				365F2C642CF3E49C00E1E629 /* Sources */,
+				365F2C652CF3E49C00E1E629 /* Frameworks */,
+				365F2C662CF3E49C00E1E629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Focustomize;
+			packageProductDependencies = (
+				365F2C7E2CF414DF00E1E629 /* Summit */,
+				365F2C812CF41BCE00E1E629 /* SystemImagePicker */,
+			);
+			productName = ForceFocus;
+			productReference = 365F2C682CF3E49C00E1E629 /* Focustomize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		365F2C602CF3E49C00E1E629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					365F2C672CF3E49C00E1E629 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 365F2C632CF3E49C00E1E629 /* Build configuration list for PBXProject "Focustomize" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 365F2C5F2CF3E49C00E1E629;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				365F2C7D2CF414DF00E1E629 /* XCRemoteSwiftPackageReference "Summit" */,
+				365F2C802CF41BCE00E1E629 /* XCRemoteSwiftPackageReference "SystemImagePicker" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 365F2C692CF3E49C00E1E629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365F2C672CF3E49C00E1E629 /* Focustomize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365F2C662CF3E49C00E1E629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368F5F372CF436BC0086BED1 /* Assets.xcassets in Resources */,
+				36E21FA72F25969C004449FF /* AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365F2C642CF3E49C00E1E629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EE27342CF4FA8E00C0885D /* AuxillaryViews.swift in Sources */,
+				368F5F382CF436BC0086BED1 /* ContentView.swift in Sources */,
+				36EE27322CF4F9F800C0885D /* Colors.swift in Sources */,
+				368A95512CF6561C0037010F /* SettingsView.swift in Sources */,
+				368F5F392CF436BC0086BED1 /* FocustomizeApp.swift in Sources */,
+				36EE27362CF4FAA300C0885D /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		365F2C752CF3E49D00E1E629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		365F2C762CF3E49D00E1E629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		365F2C782CF3E49D00E1E629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Focustomize/Focustomize.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Focustomize;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.forcequit.Focustomize;
+				PRODUCT_NAME = Focustomize;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		365F2C792CF3E49D00E1E629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Focustomize/Focustomize.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Focustomize;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.forcequit.Focustomize;
+				PRODUCT_NAME = Focustomize;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365F2C632CF3E49C00E1E629 /* Build configuration list for PBXProject "Focustomize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365F2C752CF3E49D00E1E629 /* Debug */,
+				365F2C762CF3E49D00E1E629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365F2C772CF3E49D00E1E629 /* Build configuration list for PBXNativeTarget "Focustomize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365F2C782CF3E49D00E1E629 /* Debug */,
+				365F2C792CF3E49D00E1E629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		365F2C7D2CF414DF00E1E629 /* XCRemoteSwiftPackageReference "Summit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/forcequitOS/Summit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+		365F2C802CF41BCE00E1E629 /* XCRemoteSwiftPackageReference "SystemImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sbertix/SystemImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		365F2C7E2CF414DF00E1E629 /* Summit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 365F2C7D2CF414DF00E1E629 /* XCRemoteSwiftPackageReference "Summit" */;
+			productName = Summit;
+		};
+		365F2C812CF41BCE00E1E629 /* SystemImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 365F2C802CF41BCE00E1E629 /* XCRemoteSwiftPackageReference "SystemImagePicker" */;
+			productName = SystemImagePicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 365F2C602CF3E49C00E1E629 /* Project object */;
+}
